@@ -4,13 +4,3 @@
   padding: 2rem;
   text-align: center;
 }
-
-.ProfilePicture {
-  width: 41px;
-  height: 41px;
-  background-image: url('assets/ProfilePicture.svg');
-  position: relative;
-  border-radius: 50%;
-  overflow: hidden;
-  text-align: center;
-}

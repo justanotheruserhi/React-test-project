@@ -2,10 +2,9 @@ import React from "react";
 import classes from "./Header.module.css"
 import clsx from "clsx";
 
-const AppHeader: React.FC = () => {
-
+const Header: React.FC = () => {
     return (
-        <header className={classes.appHeader}>
+        <header className={classes.AppHeader}>
             <div className={classes.logo}>
               <div className={classes.icon}>T</div>
               <div className={classes.text}>HealthCare</div>
@@ -36,4 +35,4 @@ const AppHeader: React.FC = () => {
     )
 }
 
-export default AppHeader;
+export default Header;

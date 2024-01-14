@@ -1,4 +1,4 @@
-.appHeader {
+.AppHeader {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -55,4 +55,14 @@ ul {
     font-weight: 700;
     word-wrap: break-word;
     padding-left: 12px;
+}
+
+.ProfilePicture {
+  width: 41px;
+  height: 41px;
+  background-image: url('assets/Blue.svg');
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
 }
