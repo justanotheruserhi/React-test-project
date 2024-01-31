@@ -1,0 +1,42 @@
+.Providers{
+    display: flex;
+}
+
+.ProvidersTitle {
+    text-align: left;
+    color: #000;
+    font-family: Muli;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 155.556% */
+}
+
+.ProvidersDesc {
+    text-align: left;
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 166.667% */
+}
+
+.ProvidersImg {
+    width: 650px;
+    height: 477px;
+    flex-shrink: 0;
+}
+
+.ProvidersButton {
+    align-self: start;
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+}

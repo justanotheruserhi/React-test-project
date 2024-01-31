@@ -1,0 +1,47 @@
+.MobileApp {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.MobileAppText {
+    justify-content: flex-start;
+}
+
+.MobileAppTitle {
+    text-align: left;
+    color: #000;
+    font-family: Muli;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 155.556% */
+}
+
+.MobileAppDesc {
+    text-align: left;
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 166.667% */
+}
+
+.MobileAppImg {
+    width: 665px;
+    height: 434px;
+    flex-shrink: 0;
+}
+
+.MobileAppButton {
+    flex: 1;
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+}
