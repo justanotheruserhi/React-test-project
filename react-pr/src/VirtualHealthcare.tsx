@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./VirtualHealthcare.module.css"
+import './fonts/Mulish-VariableFont_wght.ttf';
 
 const VirtualHealthcare: React.FC = () => {
     return (
@@ -11,7 +12,7 @@ const VirtualHealthcare: React.FC = () => {
                 alert('clicked');}} className={classes.VirtualHealthcareButton}>
                     Consult today
                 </button>
-            </div>
+                </div>
             </div>
             <img src={'src/assets/VirtualHealthcare.png'} className={classes.HealthcareImg} alt="VirtualHealthcareImg" />
         </div>

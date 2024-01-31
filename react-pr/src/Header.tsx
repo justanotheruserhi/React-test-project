@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Header.module.css"
 import clsx from "clsx";
+import './fonts/Mulish-VariableFont_wght.ttf';
 
 const Header: React.FC = () => {
     return (

@@ -1,0 +1,23 @@
+.AppFooter {
+    background-color: #67C3F3, #5A98F2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.FooterTitle {
+    text-align: left;
+    color: #FFF;
+    font-family: Muli;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.FooterText {
+    text-align: left;
+    color: #FFF;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+}
